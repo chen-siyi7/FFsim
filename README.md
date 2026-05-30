@@ -1,6 +1,6 @@
-# ffsim
+# Flattened Franchise (FF) sim
 
-Reference implementation of the **Flattened Franchise (FF)**, a sublinear
+Reference implementation of the Flattened Franchise (FF), a sublinear
 occupancy transform applied at the Chinese Restaurant Table (CRT) step of a
 hierarchical Dirichlet process (HDP) sampler. The single modification that
 defines FF is
