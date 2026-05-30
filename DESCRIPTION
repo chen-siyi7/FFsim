@@ -1,0 +1,25 @@
+Package: ffsim
+Type: Package
+Title: Simulation Tools for the Flattened Franchise HDP Modification
+Version: 0.1.0
+Authors@R:
+    person("Siyi", "Chen", email = "siyi.chen@example.edu",
+           role = c("aut", "cre"))
+Description: A base-R reference implementation of the Flattened Franchise (FF),
+    a sublinear occupancy transform applied at the Chinese Restaurant Table
+    step of a hierarchical Dirichlet process sampler. The package provides the
+    defining transform, a conditional weight-layer experiment that isolates the
+    eta^(-1/2) inflation of the minority-weight posterior standard deviation,
+    and a full finite weak-limit HDP Gibbs sampler for clustering, together
+    with table and figure output. The numbers are produced by the code; the
+    package does not reproduce any specific published table.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.6.0)
+Imports:
+    stats,
+    graphics,
+    grDevices,
+    utils
+URL: https://github.com/siyichen/ffsim
+BugReports: https://github.com/siyichen/ffsim/issues
