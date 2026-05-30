@@ -34,7 +34,6 @@ Two experiments, each averaged over replicates with standard-error bars:
 ## Quick start
 
 ```r
-library(ffsim)
 
 # the defining transform and the CRT primitive
 g_eta(1000, 0.6)
