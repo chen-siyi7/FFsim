@@ -31,15 +31,6 @@ Two experiments, each averaged over replicates with standard-error bars:
 > published table, and its default data-generating process, estimand, and
 > sampler variant are meant to be edited to match a given study.
 
-## Installation
-
-```r
-# install.packages("remotes")
-remotes::install_github("siyichen/ffsim")
-```
-
-The package depends only on base R (>= 3.6).
-
 ## Quick start
 
 ```r
@@ -71,4 +62,4 @@ res <- ff_run(ff_default_config(), outdir = "FF_sim_output")
 
 ## License
 
-MIT (c) 2026 Siyi Chen.
+MIT (c) 2026.
